@@ -2,8 +2,8 @@ title: grunt使用入门
 comments: true
 date: 2015-07-08 00:04:19
 updated:
-categories: 工具分享
-tags: grunt
+categories: 前端
+tags: 构建工具 grunt
 ---
 在项目中，为了简化代码合并、压缩的流程，接触了Grunt。一入Grunt深似海，以后不用手动粘贴代码，再用软件或者在线工具压缩后另存为文件了！当然，这只是Grunt的一小部分作用~在此记录Grunt的使用。
 

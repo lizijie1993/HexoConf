@@ -2,7 +2,7 @@ title: 使用Hexo搭建blog
 comments: true
 date: 2015-08-27 23:48:37
 updated:
-categories: 工具分享
+categories: 工具
 tags: Hexo blog
 ---
 

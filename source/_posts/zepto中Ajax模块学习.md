@@ -3,7 +3,7 @@ comments: true
 date: 2015-10-23 13:47:40
 updated:
 categories: 前端
-tags: Ajax
+tags: Ajax zepto
 ---
 
 在[Ajax学习笔记](http://lizijie1993.github.io/2015/10/22/Ajax%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/)中，已经了解了Ajax跨浏览器的解决方案，以及其基本流程。在此，对[zepto.js](http://zeptojs.com/)库中的Ajax模块进行初步了解，源码可以到官网去下载。

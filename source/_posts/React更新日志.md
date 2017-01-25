@@ -1,7 +1,7 @@
 title: React更新日志
 comments: true
 date: 2017-01-25 10:59:35
-categories: javascript
+categories: 前端
 tags: react
 ---
 
