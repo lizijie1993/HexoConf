@@ -2,7 +2,7 @@ title: fisp中使用es6开发
 comments: true
 date: 2016-08-11 23:28:55
 categories: 前端
-tags: 构建工具 fisp es6 template.js
+tags: [构建工具, fisp, es6]
 ---
 
 ## 背景

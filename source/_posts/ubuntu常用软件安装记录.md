@@ -3,7 +3,7 @@ comments: true
 date: 2015-07-09 23:37:14
 updated:
 categories: 工具
-tags: ubuntu 软件
+tags: [ubuntu, 软件]
 ---
 本人安装的为64位ubuntu14.04。
 

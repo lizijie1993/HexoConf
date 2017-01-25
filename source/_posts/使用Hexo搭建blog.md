@@ -3,7 +3,7 @@ comments: true
 date: 2015-08-27 23:48:37
 updated:
 categories: 工具
-tags: Hexo blog
+tags: [Hexo, blog]
 ---
 
 Hexo是一个逼格很高的，基于node.js的博客框架，其操作十分简单，从新建写作内容，到部署到网站，只需仅仅几个命令！本人在寻找能在Github Pages部署博客的框架过程中发现它的，在此记录平常写博客时常用的命令。

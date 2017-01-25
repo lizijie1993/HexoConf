@@ -2,7 +2,7 @@ title: CSS布局实例汇总
 comments: true
 date: 2017-01-03 22:17:10
 categories: 前端
-tags: CSS 布局
+tags: [CSS, 布局]
 ---
 
 ## 水平居中
