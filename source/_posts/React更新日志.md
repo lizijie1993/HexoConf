@@ -5,6 +5,8 @@ categories: 前端
 tags: react
 ---
 
+[Change Log](https://github.com/facebook/react/blob/master/CHANGELOG.md)
+
 记录涉及到代码变更的更新，忽略小版本bug fix。
 
 ## 15.0.0 -> 15.4.0
@@ -16,7 +18,7 @@ tags: react
 ### React
 
 * 不再隐式包含 React DOM
-* 必须的（required）`PropTypes`不能为`null`和`undefined`，并给出提示
+* 必须的（required）`PropTypes`不能为`null`和`undefined`，缺少时给出提示
 * 通过冻结`children`替换复制，提升了开发性能
 
 ### React DOM
@@ -64,7 +66,7 @@ tags: react
 * 移除react组件实例方法：`setProps`, `replaceProps`, `getDOMNode`
 * 移除 `react/addons` 入口，以 `react-addons-*` 包替代
 * 传递 `children` 给void element（如input），现在会报错 ？
-* 不再支持从通过 `refs` 取得的dom上取 react特定的属性 （如 `this.refs.div.props`） ？
+* 不再支持从通过 `refs` 取得的dom上取react特定的属性（如 `this.refs.div.props`，建议使用 `ref` 回调函数获取)
 
 ### 新的废弃（React16完全移除）
 
