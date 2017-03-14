@@ -3,9 +3,9 @@ categories: 前端
 tags: [svg, css3]
 ---
 
-前端实现动画的手段非常丰富，有Canvas，JS+DOM，CSS3，SVG等。本文以近期项目中的动画为例，介绍CSS3和SVG两种CSS3&SVG动画实现简易版行星运动.md的方式。
+前端实现动画的手段非常丰富，有Canvas，JS+DOM，CSS3，SVG等。本文以近期项目中的动画为例，介绍CSS3和SVG两种CSS3&SVG动画实现简易版行星运动的方式。
 
-![行星轨迹动画](./CSS3&SVG动画实现简易版行星运动.md/pic1.gif)
+![行星轨迹动画](./CSS3&SVG动画实现简易版行星运动/pic1.gif)
 
 ## 动画拆解
 
@@ -113,7 +113,7 @@ tags: [svg, css3]
 
 我们可以类似求圆周长一样，将轨迹划分成很多线段，然后设置动画，让小球移动。
 
-![求圆周长](./CSS3&SVG动画实现简易版行星运动.md/pic2.jpg)
+![求圆周长](./CSS3&SVG动画实现简易版行星运动/pic2.jpg)
 
 代码类似
 
@@ -161,13 +161,13 @@ CSS3实现轨迹，只能取大量点模拟或者对运动进行X、Y轴拆分�
 ## 兼容性
 
 ### CSS Animation兼容性
-![CSS Animation兼容性](./CSS3&SVG动画实现简易版行星运动.md/pic3.png)
+![CSS Animation兼容性](./CSS3&SVG动画实现简易版行星运动/pic3.png)
 
 ### CSS3 Transform 2D兼容性
-![CSS3 Transform 2D兼容性](./CSS3&SVG动画实现简易版行星运动.md/pic4.png)
+![CSS3 Transform 2D兼容性](./CSS3&SVG动画实现简易版行星运动/pic4.png)
 
 ### SVG SMIL动画兼容性
-![SVG SMIL动画兼容性](./CSS3&SVG动画实现简易版行星运动.md/pic5.png)
+![SVG SMIL动画兼容性](./CSS3&SVG动画实现简易版行星运动/pic5.png)
 
 ## 其他
 
