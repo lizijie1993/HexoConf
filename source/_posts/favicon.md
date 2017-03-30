@@ -69,7 +69,7 @@ Loading动画：
 
 常见的favicon的格式有`.ico`、`.png`、`.svg`、`.gif`。
 
-`.ico`文件的兼容性最好，所有浏览器都支持，也是最早支持的格式。
+`.ico`文件的兼容性最好，所有浏览器都支持[MIME类型](#MIME类型)为`image/vnd.microsoft.icon`的`.ico`图标，这也是最早支持的格式。
 
 `.png`与`.ico`使用上基本没有差别，但市面上制作、处理`.png`的工具更多，应用更广。`.png`的兼容性不如`.ico`。
 
@@ -87,9 +87,11 @@ IE9及以下（以上待测）不支持`.gif`格式，显示默认图标；chrom
 
 ### 加载顺序
 
-所有浏览器都支持[MIME类型](#MIME类型)为`image/vnd.microsoft.icon`的`.ico`图标。若引用了不支持格式的favicon，浏览器会首先查找WEB服务器根目录下是否存在`favicon.ico`，若不存在，则显示浏览器默认图标，例如：
+浏览器加载favicon的顺序，如下图所示：
 
-[Bing](http://cn.bing.com/search?q=b&src=IE-SearchBox&FORM=IE8SRC)通过`href`引入了后缀为`.ico`但实际为png格式的图片：
+![favicon加载流程图](/2017/03/30/favicon/favicon加载流程图.png)
+
+举个例子，[Bing](http://cn.bing.com/search?q=b&src=IE-SearchBox&FORM=IE8SRC)通过`href`引入了后缀为`.ico`但实际为png格式的图片：
 
 ```html
 <link href="/sa/simg/bing_p_rr_teal_min.ico" rel="shortcut icon">
@@ -153,13 +155,27 @@ function insertFavicon(href, type) {
 * [Tinycon](https://github.com/tommoor/tinycon)
 * [piecon](https://github.com/lipka/piecon)
 
-[piecon](https://github.com/lipka/piecon)实现的动画参考了[Tinycon](https://github.com/tommoor/tinycon)，与[favico](https://github.com/ejci/favico.js)一样，都是基于Canvas，原理大致如下：
+我们能用这些库，来做许多有趣的事情，比如包括之前提到的：
+
+Loading动画：
+
+![Piecon实现动态favicon](/2017/03/30/favicon/piecon.gif)
+
+为favicon添加徽章（提示当前登录账户的未读通知数）：
+
+![百度外卖运营后台favicon](/2017/03/30/favicon/运营后台favicon.JPG)
+
+同步显示正在播放的视频：
+
+![同步视频与favicon](/2017/03/30/favicon/同步视频与favicon.gif)
+
+[Piecon](https://github.com/lipka/piecon)实现动画参考了[Tinycon](https://github.com/tommoor/tinycon)，与[favico](https://github.com/ejci/favico.js)一样，都是基于Canvas，原理大致如下：
 
 ![piecon_原理图](/2017/03/30/favicon/piecon_原理图.png)
 
 有兴趣的话，可以点击链接，查看它们的源码。
 
-这些库的兼容性考虑[Canvas的兼容性](#canvas兼容性)以及[图片格式兼容性](#图片格式兼容性)。
+这些库的兼容性考虑[Canvas的兼容性](#Canvas兼容性)以及[图片格式兼容性](#图片格式兼容性)。
 
 ## 结语
 
