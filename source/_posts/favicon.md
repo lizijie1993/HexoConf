@@ -9,7 +9,9 @@ date: 2017-03-30 13:10:28
 
 ## 背景
 
-Favicon，即*favorites icon*。页面中引入Favicon，能使浏览器收藏夹中的快捷方式，不仅显示网站的标题，还显示网站管理员为这个网站制作的特定icon，让网站更有特色。在部分浏览器中，标签页上、搜索栏中，也能显示这个icon，比如：
+> Favicon是整个网页中一个非常小的组成部分，它虽然并不起眼，但若被精心设计，却可以让网页变得精致、有趣。
+
+Favicon，即*favorites icon*。页面中引入Favicon，能使浏览器收藏夹中的快捷方式不仅显示网站的标题，还显示网站管理员为这个网站制作的特定icon。在部分浏览器中，标签页上、搜索栏中，也能显示这个icon，比如：
 
 Mac下Safari浏览器的搜索栏：
 
@@ -62,7 +64,7 @@ Loading动画：
 <link rel="shortcut icon" href="/favicon_32x32.ico" type="image/vnd.microsoft.icon" sizes="32x32" />
 ```
 ```html
-<link rel="shortcut icon" href="/favicon_64x64.svg" type="image/svg+xml" sizes="64x64" />
+<link rel="shortcut icon" href="/favicon_64x64.svg" type="image/svg+xml" sizes="any" />
 ```
 
 ### 格式
@@ -77,7 +79,7 @@ Loading动画：
 
 `.gif`的favicon在部分浏览器下能实现动画效果。将favicon设置为如下`.gif`图：
 
-![gif](http://p3.pstatp.com/large/96f000157a64dde1587)
+![gif](/2017/03/30/favicon/gif.gif)
 
 在firefox中，有动态效果：
 
@@ -179,7 +181,9 @@ Loading动画：
 
 ## 结语
 
-与favicon相关的还有触摸图标（[touch icons](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)）和磁贴图标（[tile icons](http://blogs.msdn.com/b/ie/archive/2012/06/08/high-quality-visuals-for-pinned-sites-in-windows-8.aspx)）,这些图标在网页整体下显得并不起眼，但是却能将网页点缀得更加精致。
+利用favicon这个“小东西”，我们可以在浏览器中印上特别的logo，可以附加提示信息，还可以做许多有趣的事情。假如，在切换浏览器标签页后，favicon变成了“很有趣”的东西，这会不会吸引你再次点开这个页面呢？
+
+除开favicon，触摸图标（[touch icons](https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)）和磁贴图标（[tile icons](http://blogs.msdn.com/b/ie/archive/2012/06/08/high-quality-visuals-for-pinned-sites-in-windows-8.aspx)）也是很实用的图标。如何利用这些图标来装点你的网站，等待你来发现。
 
 ## 附录
 
