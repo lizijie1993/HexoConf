@@ -5,9 +5,31 @@ categories: 前端
 tags: react
 ---
 
-[Change Log](https://github.com/facebook/react/blob/master/CHANGELOG.md)
+[Github Change Log](https://github.com/facebook/react/blob/master/CHANGELOG.md)
 
-记录涉及到代码变更的更新，忽略小版本bug fix。
+记录新功能、旧功能迁移、功能废弃相关内容，不记录bugfix、警告等小更新。
+
+## 15.5.0
+
+[Blog - React v15.5.0](https://facebook.github.io/react/blog/2017/04/07/react-v15.5.0.html)
+
+### React
+
+* 添加`React.createClass`的废弃警告，提示用户使用`create-react-class`模块替换。（注，也可以迁移至使用`class`创建组件）
+* 添加`React.PropTypes`的废弃警告，提示用户使用[prop-types](https://github.com/reactjs/prop-types)模块替换，使用方法参考[Migrating from React.createClass](https://facebook.github.io/react/blog/2017/04/07/react-v15.5.0.html#migrating-from-react.createclass)
+
+### React DOM
+
+* 添加`react-dom/test-utils`，该模块暴露了React Test Utils
+
+### React Test Renderer
+
+* 添加`react-test-renderer/shallow`，该模块暴露了shallow renderer
+
+### React Addons
+
+* 不再维护，迁移替代方案参考[Discontinuing support for React Addons](https://facebook.github.io/react/blog/2017/04/07/react-v15.5.0.html#discontinuing-support-for-react-addons)
+* 废弃`react-addons-test-utils`，使用`react-dom/test-utils`和`react-test-renderer/shallow`替换
 
 ## 15.0.0 -> 15.4.0
 
