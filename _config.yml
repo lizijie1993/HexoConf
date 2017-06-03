@@ -7,7 +7,7 @@ title: 无尽的边界
 subtitle:
 description:
 author: lizijie
-language: Ch-Zn
+language: zh-CN
 timezone:
 
 # URL
@@ -64,7 +64,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: maupassant
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -73,5 +73,3 @@ deploy:
   repo: https://github.com/lizijie1993/lizijie1993.github.io.git
   branch: master
   message:
-
-duoshuo_shortname: lizijie1993.duoshuo.com
